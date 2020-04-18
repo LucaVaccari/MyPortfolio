@@ -1,10 +1,10 @@
 {
-    "FirstName" : "Luca",
-    "LastName" : "Vaccari",
-    "Age" : 16,
-    "birthDate" : {
-        "day" : 28,
-        "month" : 8,
-        "year" : 2003
-    }
+	"FirstName": "Luca",
+	"LastName": "Vaccari",
+	"Age": 16,
+	"birthDate": {
+		"day": 28,
+		"month": 8,
+		"year": 2003
+	}
 }
