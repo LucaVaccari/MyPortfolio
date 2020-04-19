@@ -1,6 +1,6 @@
-# MyPortfolio
+﻿# MyPortfolio
 
-Website for my portfolio.
+Website for my portfolio. The color palette is American Color Palette.
 
 ## Main page
 

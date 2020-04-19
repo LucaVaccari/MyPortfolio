@@ -6,5 +6,16 @@
 		"day": 28,
 		"month": 8,
 		"year": 2003
+	},
+	"passions": {
+		"coding": {
+			"html": "html/coding"
+		},
+		"music": {
+			"html": "html/coding"
+		},
+		"videogames": {
+			"html": "html/coding"
+		}
 	}
 }
