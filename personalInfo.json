@@ -1,21 +1,25 @@
 {
-	"FirstName": "Luca",
-	"LastName": "Vaccari",
-	"Age": 16,
+	"firstName": "Luca",
+	"lastName": "Vaccari",
 	"birthDate": {
 		"day": 28,
 		"month": 8,
 		"year": 2003
 	},
-	"passions": {
-		"coding": {
-			"html": "html/coding"
+	"nationality": "Italian",
+	"description": "Hi, I'm Luca Vaccari, an Italian student who loves learning new things. I study computer science at IIS Castelli in Brescia. My dream is to create videogames. My passions are coding and music, and videogames can be the perfect way to mix them together.",
+	"passions": [
+		{
+			"name": "coding",
+			"html": "html/coding.html"
 		},
-		"music": {
-			"html": "html/coding"
+		{
+			"name": "music",
+			"html": "html/music.html"
 		},
-		"videogames": {
-			"html": "html/coding"
+		{
+			"name": "videogames",
+			"html": "html/videogames.html"
 		}
-	}
+	]
 }

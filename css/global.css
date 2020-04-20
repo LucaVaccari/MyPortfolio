@@ -1,4 +1,5 @@
-#sidebar-main {
+/*css style for all pages*/
+#sidebar {
 	height: 100%;
 	width: 20%;
 	position: fixed;
@@ -10,22 +11,18 @@
 	padding-top: 10%;
 	text-align: center;
 }
-#sidebar-main a {
+#sidebar a {
 	text-decoration: none;
 	font-size: 25px;
 	color: #dfe6e9;
 	display: block;
 	padding-top: 20px;
 }
-#sidebar-main a:hover {
+#sidebar a:hover {
 	color: #d63031;
 }
 body {
 	background-color: #636e72;
 	color: #ffeaa7;
-}
-.main {
-	margin-left: 20%;
-	padding-top: 100px;
-	padding-left: 20px;
+	font-family: Candara, Verdana, Courier;
 }
