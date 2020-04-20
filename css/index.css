@@ -4,31 +4,36 @@
 	padding-top: 100px;
 	padding-left: 20px;
 	width: 55%;
-    font-size: 18px;
-    line-height: 1.5em;
+	font-size: 18px;
+	line-height: 1.5em;
 }
 #info-table {
 	position: fixed;
+	background-color: #2d3436;
 	height: 100%;
 	z-index: 1;
 	right: 0;
 	top: 0;
 	overflow-x: hidden;
-    width: 20%;
-    height: 100%;
-    text-align: center;
-    padding-top: 15%;
-    padding-right: 30px;
-    font-size: 20px;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 17px;
 }
-#info-table td, th {
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#info-table td,
+th {
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	min-height: 5em;
+	border: 1px solid; 
 }
 #info-table th {
-    color: #81ecec;
+	color: #81ecec;
 }
 #info-table td {
-    color: #55efc4;
+	color: #55efc4;
 }

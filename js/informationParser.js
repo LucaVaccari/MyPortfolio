@@ -7,11 +7,15 @@ async function openJSON(fileName) {
 function setHTML(id, text) {
 	document.getElementById(id).innerHTML = text;
 }
-function getAge(birthDate) {
-	let date = new Date(birthDate.year, birthDate.month, birthDate.day);
-	//the division convert from milliseconds to years
-	return parseInt((Date.now() - date) / 31536000000);
-}
+
+const parseUl = elements => `<ul><li>${elements.join(`</li><li>`)}</li></ul>`;
+
+const getAge = birthDate =>
+	parseInt(
+		(Date.now() -
+			new Date(birthDate.year, birthDate.month, birthDate.day)) /
+			31536000000, //from milliseconds to years
+	);
 
 async function load() {
 	let info = await openJSON("personalInfo.json");
@@ -21,6 +25,8 @@ async function load() {
 	setHTML("first-name", info.firstName);
 	setHTML("last-name", info.lastName);
 	setHTML("age", getAge(info.birthDate));
+	setHTML("school", info.school);
+	setHTML("passions", parseUl(info.passions.map(el => el.name))); //from obj to strings
 }
 
 load();
