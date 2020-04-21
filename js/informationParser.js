@@ -26,7 +26,7 @@ async function load() {
 	setHTML("last-name", info.lastName);
 	setHTML("age", getAge(info.birthDate));
 	setHTML("school", info.school);
-	setHTML("passions", parseUl(info.passions.map(el => el.name))); //from obj to strings
+	setHTML("passions", parseUl(info.passions.map(el => el.name))); //objs to strings
 }
 
 load();
