@@ -35,7 +35,10 @@ Same as before:
  - Music composition 3/5
  - Sound Effects 3/5
  - Animation 2.5/5
+ 
 ## Contact Me
 Phone Number
+
 E-Mail
+
 Digital Sudios Mail
